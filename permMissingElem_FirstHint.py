@@ -1,10 +1,13 @@
-n = [2, 3, 1, 5]
+input = [2, 3, 1, 5]
+n = len(input) + 1
+result = 0
 
-for x in range(1, len(n)+1):
+for x in n:
     found = False
-    for y in range(1, len(n)+1):
-        if x == n[y]:
+    for i in input:
+        if i == x:
             found = True
-
+            result = i
+print(result)
 
 
