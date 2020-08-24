@@ -1,5 +1,6 @@
 input = [2, 3, 1, 5]
-n = len(input)
+n = len(input) + 1
+print(f' n is {n}')
 result = 0
 
 for x in range(1, n + 1):
@@ -8,7 +9,9 @@ for x in range(1, n + 1):
         print(f'{x} -- {i}')
         if x == i:
             found = True
-            result = i
+    if not found:
+        result = x
+
 print(result)
 
 
