@@ -1,2 +1,2 @@
 input = [2, 3, 1, 5]
-secondArray = []
+secondArray = [None] * (len(input) + 2)
