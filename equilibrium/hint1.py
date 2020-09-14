@@ -1,9 +1,10 @@
 p =[3,1,2,4,3]
 right =[]
-left =[]
+left = p
 
 for value in p:
-
+    righ.append(value)
+    del left[p[value]]
     for left in zeroP:
         abs(sum += left )
 
