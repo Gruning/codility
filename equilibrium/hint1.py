@@ -3,10 +3,10 @@ right =[]
 left = p
 
 for value in p:
-    righ.append(value)
+    right.append(value)
     del left[p[value]]
-    for left in zeroP:
-        abs(sum += left )
+    for l in left:
+        abs(sum = sum + left )
 
-    for right in zeroP:
-        abs(sum += left )
+    for r in righ:
+        abs(sum = sum + right )
