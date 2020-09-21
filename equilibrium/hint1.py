@@ -7,8 +7,8 @@ for value in p:
     right.append(value)
     del left[p[value]]
     for l in left:
-        sumLeft = sumLeft + left
-        print('sum Left ' + sumLeft) 
+        sumLeft = sumLeft + l
+        print('sum Left {0}',sumLeft) 
 
     for r in right:
         abs(sum = sum + right )
