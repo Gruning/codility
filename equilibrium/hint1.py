@@ -7,11 +7,14 @@ cont = 0
 
 
 for value in p:
-    left.append(value)
+    left.append(p[cont])
+    print('cont', cont)
+    print('array', p[cont])
     print('left',left)
     del right[cont]
     cont = cont + 1
-    print('right',right)
+    # print('right',right)
+
     # for l in left:
     #     sumLeft = sumLeft + l
     #     print('sum Left ',sumLeft) 
