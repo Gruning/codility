@@ -6,13 +6,17 @@ sumRight = 0
 # _cont = 0
 
 print('p',p)
-for value in p:
-    #print('value', value)
-    left.append(value)
+for valueL in p:
+    print('valueL', valueL)
+    left.append(valueL)
     # print('cont', _cont)
     # print('array', value)
     print('left',left)
-    right.remove(value)
+
+print('--------')
+for valueR in p:
+    print('valueR', valueR)
+    right.remove(valueR)
     #del right[_cont]
     # _cont = _cont + 1
 
