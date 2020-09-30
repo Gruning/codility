@@ -14,7 +14,7 @@ for valueL in p:
     print('left',left)
 
 print('--------')
-for valueR in p:
+for valueR in right:
     print('valueR', valueR)
     right.remove(valueR)
     #del right[_cont]
