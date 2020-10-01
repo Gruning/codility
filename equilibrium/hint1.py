@@ -1,5 +1,8 @@
 p =[3,1,2,4,3]
-right = p
+right=[]
+for r in p:
+    right.append(r)
+
 left = []
 sumLeft = 0
 sumRight = 0
@@ -14,11 +17,12 @@ for valueL in p:
     print('left',left)
 
 print('--------')
-for valueR in right:
+cont = 0 
+for valueR in p:
     print('valueR', valueR)
     right.remove(valueR)
-    #del right[_cont]
-    # _cont = _cont + 1
+    #del right[cont]
+    cont = cont + 1
 
     print('right',right)
 
