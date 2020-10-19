@@ -8,7 +8,7 @@ def solution(A):
         sum_right -=A[i]
         current_diff = abs(sum_left - sum_right)
         if diff > current_diff:
-            dif = current_diff
+            diff = current_diff
         
     return diff
 
