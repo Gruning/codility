@@ -4,3 +4,5 @@ def solution(a,k):
     origLenth = len(a)
     newArrayLen = origLenth + k
     newArray = [0]* newArrayLen
+
+solution(a,k)
