@@ -3,8 +3,9 @@ k=2
 def solution(a,k):
     origLenth = len(a)
     leftOver = k % origLenth
-    if(k<2*len(a))
-        newArrayLen = origLenth + k
+
+    if leftOver != 0:
+        newArrayLen = origLenth + leftOver
     newArray = [0]* newArrayLen
     
     return newArrayLen
