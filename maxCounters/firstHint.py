@@ -1,3 +1,5 @@
 def solution(n,a):
-    pass
+    print(n + a)
+
+solution(3,2)
 
