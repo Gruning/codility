@@ -1,5 +1,8 @@
-def solution(n,a):
-    print(n + a)
+n=5
+a=[3,4,4,6,1,4,4]
 
-solution(3,2)
+def solution(n,a):
+    print(a)
+
+solution(n,a)
 
