@@ -2,6 +2,7 @@ n=5
 a=[3,4,4,6,1,4,4]
 
 def solution(n,a):
+    maxCounter = 0
     print(a)
     array = [0]* n
    # for cont in array:
@@ -11,8 +12,13 @@ def solution(n,a):
 
     for item in a:        
         print (item)
-       #array[item] = array[item] + 1
+        if item > n:
+            for x in range(0,n-1):
+                array[x] = maxCounter 
+        else:
+            array[item] = array[item] + 1
+            if(array[item]>maxCounter):
+                maxCounter = array[item]
         
 
 solution(n,a)
-
