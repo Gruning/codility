@@ -19,6 +19,7 @@ def solution(n,a):
             array[item] = array[item] + 1
             if(array[item]>maxCounter):
                 maxCounter = array[item]
-        
+    
+    print(array)
 
 solution(n,a)
