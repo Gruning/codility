@@ -12,6 +12,10 @@ def solution(n,a):
 
     for item in a:        
         print (item)
+                
+        if(item > n):
+            print('break')
+            break
         if item > n:
             for x in range(0,n-1):
                 array[x] = maxCounter 
