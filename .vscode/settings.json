@@ -1,6 +1,6 @@
 {
     "python.pythonPath": "/usr/local/bin/python",
-    "python.linting.pylintEnabled": false,
+    "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.linting.prospectorEnabled": true
+    "python.linting.prospectorEnabled": false
 }
