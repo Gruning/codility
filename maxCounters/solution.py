@@ -7,4 +7,14 @@ def solution(N,A):
         x = i-1
         if i > N:
             start_line = current_max
+        elif counters[x]< start_line:
+            counters[x] = start_line + 1
+        else:
+            counters[x] += 1
         
+        if i <= N and counters[x] > current_max:
+            current_max = counters[x]
+
+    for i in range(0, len(counters)):
+         if counters[i]< start_line:
+             counters[i] = start_line
